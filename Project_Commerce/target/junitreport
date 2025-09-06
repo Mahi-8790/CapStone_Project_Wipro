@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="79.002" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-09-06T11:20:34.902830200Z">
+<testcase classname="To login to ecommerce page and return to home page" name="login to ecommerce website" time="12.61">
+<system-out><![CDATA[
+Given page should open in browser...........................................passed
+And enter username and password.............................................passed
+And click on sign in........................................................passed
+And to return home click on page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Search on nopCommerce Demo Store" name="Search for different products on homepage - #1.1" time="4.588">
+<system-out><![CDATA[
+Given navigate to nopCommerce home page.....................................passed
+When enter "laptop" in search box...........................................passed
+And click on search button..................................................passed
+Then The search results page should display results for "laptop"............passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Search on nopCommerce Demo Store" name="Search for different products on homepage - #1.2" time="4.11">
+<system-out><![CDATA[
+Given navigate to nopCommerce home page.....................................passed
+When enter "computer" in search box.........................................passed
+And click on search button..................................................passed
+Then The search results page should display results for "computer"..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Search on nopCommerce Demo Store" name="Search for different products on homepage - #1.3" time="3.11">
+<system-out><![CDATA[
+Given navigate to nopCommerce home page.....................................passed
+When enter "phone" in search box............................................passed
+And click on search button..................................................passed
+Then The search results page should display results for "phone".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Search on nopCommerce Demo Store" name="Search for different products on homepage - #1.4" time="8.214">
+<system-out><![CDATA[
+Given navigate to nopCommerce home page.....................................passed
+When enter "books" in search box............................................passed
+And click on search button..................................................passed
+Then The search results page should display results for "books".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Search on nopCommerce Demo Store" name="Search for different products on homepage - #1.5" time="3.712">
+<system-out><![CDATA[
+Given navigate to nopCommerce home page.....................................passed
+When enter "software" in search box.........................................passed
+And click on search button..................................................passed
+Then The search results page should display results for "software"..........passed
+]]></system-out>
+</testcase>
+<testcase classname="wishlist functionality" name="Add a product to the wishlist" time="5.593">
+<system-out><![CDATA[
+And navigate homepage.......................................................passed
+When search for mobile......................................................passed
+And select the first product from the search results........................passed
+And add the product to my wishlist..........................................passed
+Then The product should appear in my wishlist...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="to check  cart functionlity" name="cart functioonality of ecommerce website" time="7.029">
+<system-out><![CDATA[
+Given it should open in browser.............................................passed
+When Search "Apple iPhone 16 128GB".........................................passed
+And click on add to cart button.............................................passed
+And go to shopping cart page................................................passed
+And click on remove(X) button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="to check sort functionality" name="sort functioonality of ecommerce website" time="12.739">
+<system-out><![CDATA[
+Given it should open in webbbrowser.........................................passed
+And enter usern and passw...................................................passed
+And click on signn..........................................................passed
+And click on electronics....................................................passed
+And click on camera and photo...............................................passed
+And sort by a to z..........................................................passed
+And sort by z to a..........................................................passed
+And sort by low to high.....................................................passed
+And sort by high to low.....................................................passed
+And slect display a six.....................................................passed
+And slect display a nine....................................................passed
+And select list type of grid................................................passed
+Then click on home..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="to check Book functionality" name="Book functioonality of ecommerce website" time="17.016">
+<system-out><![CDATA[
+Given it should open in webbrowser..........................................passed
+And enter user and pass.....................................................passed
+And click on sign...........................................................passed
+When Search as "Apple iPhone 16 128GB"......................................passed
+And click on add to cart....................................................passed
+And go to shopping cart.....................................................passed
+And click on proceed with terms.............................................passed
+And check out...............................................................passed
+And go on with continue.....................................................passed
+Then confirm order and continue.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
