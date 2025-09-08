@@ -27,11 +27,11 @@ public class Booksteps {
 	}
 	
 	
-	@And("enter user and pass")
-    public void enter_username_and_password() throws InterruptedException {
+	@And("enter logindetails {string} and {string}")
+    public void enter_username_and_password(String user, String pass) throws InterruptedException {
         book.clickLoginLink();
-        book.enterEmail("mahi879082@gmail.com");
-        book.enterPassword("8919215039@Mk");
+        book.enterEmail(user);
+        book.enterPassword(pass);
         Thread.sleep(3000);
     }
 

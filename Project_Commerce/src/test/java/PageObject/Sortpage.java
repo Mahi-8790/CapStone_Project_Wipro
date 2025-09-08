@@ -49,14 +49,14 @@ public class Sortpage {
 		        driver.findElement(loginLink).click();
 		    }
 
-		    public void enterEmail(String email) {
+		    public void enterEmail(String usern) {
 		        driver.findElement(emailField).click();
-		        driver.findElement(emailField).sendKeys(email);
+		        driver.findElement(emailField).sendKeys(usern);
 		    }
 
-		    public void enterPassword(String password) {
+		    public void enterPassword(String passw) {
 		        driver.findElement(passwordField).click();
-		        driver.findElement(passwordField).sendKeys(password);
+		        driver.findElement(passwordField).sendKeys(passw);
 		    }
 
 		    public void clickSignIn() {

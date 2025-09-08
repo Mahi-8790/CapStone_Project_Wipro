@@ -21,11 +21,11 @@ public class Sortstep {
 	    
 	}
 
-	@And("enter usern and passw")
-	public void enter_usern_and_passw() throws InterruptedException {
+	@And("enter login {string} and {string}")
+	public void enter_usern_and_passw(String usern, String passw) throws InterruptedException {
 		sort.clickLoginLink();
-       sort.enterEmail("mahi879082@gmail.com");
-        sort.enterPassword("8919215039@Mk");
+       sort.enterEmail(usern);
+        sort.enterPassword(passw);
         Thread.sleep(3000);
 	    
 	}

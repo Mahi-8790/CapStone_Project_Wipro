@@ -1,7 +1,7 @@
 Feature: to check sort functionality
 Scenario: sort functioonality of ecommerce website
 Given it should open in webbbrowser 
-And enter usern and passw
+And enter login "<usern>" and "<passw>"
 And click on signn 
 And click on electronics
 And click on camera and photo
@@ -14,7 +14,9 @@ And slect display a six
 And slect display a nine
 And  select list type of grid
 Then click on home
-
+Examples:
+|usern               |passw|
+|mahi879082@gmail.com|8919215039@Mk|
 
 
 

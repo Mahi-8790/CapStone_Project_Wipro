@@ -48,14 +48,14 @@ public class Bookpage {
 	        driver.findElement(loginLink).click();
 	    }
 
-	    public void enterEmail(String email) {
+	    public void enterEmail(String user) {
 	        driver.findElement(emailField).click();
-	        driver.findElement(emailField).sendKeys(email);
+	        driver.findElement(emailField).sendKeys(user);
 	    }
 
-	    public void enterPassword(String password) {
+	    public void enterPassword(String pass) {
 	        driver.findElement(passwordField).click();
-	        driver.findElement(passwordField).sendKeys(password);
+	        driver.findElement(passwordField).sendKeys(pass);
 	    }
 
 	    public void clickSignIn() {

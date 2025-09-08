@@ -22,11 +22,11 @@ public class login_homepage {
         loginPage = new LoginPage(driver);
     }
 
-    @And("enter username and password")
-    public void enter_username_and_password() throws InterruptedException {
+    @And("enter {string} and {string}")
+    public void enter_username_and_password(String username, String password ) throws InterruptedException {
         loginPage.clickLoginLink();
-        loginPage.enterEmail("mahi879082@gmail.com");
-        loginPage.enterPassword("8919215039@Mk");
+        loginPage.enterEmail(username);
+        loginPage.enterPassword(password);
         Thread.sleep(3000);
     }
 

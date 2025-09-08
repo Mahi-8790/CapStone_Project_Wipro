@@ -23,9 +23,9 @@ public class LoginPage {
         driver.findElement(loginLink).click();
     }
 
-    public void enterEmail(String email) {
+    public void enterEmail(String username) {
         driver.findElement(emailField).click();
-        driver.findElement(emailField).sendKeys(email);
+        driver.findElement(emailField).sendKeys(username);
     }
 
     public void enterPassword(String password) {
